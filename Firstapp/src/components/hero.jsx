@@ -15,7 +15,7 @@ export default function HeroComponents({userImage,userName}) {
       const hoverImages = e.currentTarget.querySelector('.hover-images');
       if (hoverImages) hoverImages.style.display = 'none';
     }}>
-        <img src={muteImage} alt='mute' style={{height:'35px',width:'35px',position:'absolute',right:'5px',top:'5px'}}/>
+        <img src={muteImage} alt='mute' style={{height:'35px',width:'35px',position:'absolute',right:'4px',top:'4px'}}/>
         <img style={{borderRadius: '50%', width:'100px', height:'100px', top:'50px',left:'50px',position:'absolute'}}src={userImage}></img>
         <p style={{color:'white', fontFamily:'',fontWeight:'bold', textAlign:'left', fontSize:'11px',bottom:'10px',left:'10px',margin:'0',position:'absolute'}}>{userName}</p>
         <div className='hover-images' style={{display:'none', left:'49px',top:'85px',position:'absolute',backgroundColor: '#1f2124',borderRadius:'14px'}}>
