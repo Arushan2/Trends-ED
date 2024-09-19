@@ -1,7 +1,7 @@
 import React from 'react'
 import ProfileCard from '../components/profileCard'
 
-export default function Home() {
+export default function ProfileCardPage() {
   return (
     <div 
     style={{
